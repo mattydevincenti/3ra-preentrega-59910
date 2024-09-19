@@ -1,0 +1,175 @@
+/*SELECTOR{
+    PROPIEDAD:VALOR;
+    PROPIEDAD:VALOR;
+}*/
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS DE HEADER*/
+
+  
+header .botonredes a{
+    color: white;
+    text-decoration: none;
+    
+   }
+
+
+/*ESTILOS DEL MAIN*/
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 2rem;
+    row-gap: 1rem;
+}
+
+main .div-principal{
+    background-color: #B5E4DA;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+main .div-principal h1 span{
+    display: block;
+}
+
+main .div-principal .boton {
+    background-color: black;
+    text-decoration: none;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+main .div-secundario{
+    text-align: center;
+    background-color: white;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+main .div-secundario img{
+    width: 50%;
+}
+
+/*estilos de conoceme.html*/
+main .conoceme{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: start;
+}
+
+/*estilo de tratamientos.html*/
+main .tratamientos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    align-content: center;
+       
+       
+}
+
+/*estilos de contacto.html*/
+main .div-1{
+    background-color: #B5E4DA;
+        
+}
+
+/*estilos de ubicacion.html*/
+section .mapa{
+    background-color: whitesmoke;
+    align-content: center;
+}
+
+/*estilos para PC*/
+
+@media screen and (min-width:1024px) {
+    main{
+        grid-template-columns: 1.5fr repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+}
+
+
+/*ESTILOS DEL SECTION*/
+
+.actualidad{
+    text-align: center;
+    background-color: white;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 5px 50px 10px 50px;
+}
+
+h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+/*ESTILOS DE FOOTER*/
+
+h3{
+    color: rgb(53, 120, 162);
+    margin: 50px 50px 5px 50px;
+    
+}
+
+.redes{
+    margin: 10px 50px 10px 50px;
+}
+
+
+footer div ul li a{
+   color: black;
+   text-decoration: none;
+   display: inline-block;
+}
+
+
+footer p{
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/*ESTILOS DE SOBREMI*/
+
+.sobremi{
+    text-align: justify;
+  }
+
+.h3{
+    text-align: center;
+}
+
+/*ESTILOS DE LA HISTORIA DE LA FONOAUDILOGIA*/
+
+.historia{
+    text-align: center;
+}
+
+
+/*ESTILOS DE LA UBICACION*/
+.mapa{
+    text-align: center;
+}
