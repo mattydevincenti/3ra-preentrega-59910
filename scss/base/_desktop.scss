@@ -1,0 +1,16 @@
+@media screen and (min-width:1024px) {
+   header{
+    .logo{
+        a{
+            img{
+                width: 30%;
+            }
+        }
+    }
+   }
+    main{
+        display: grid;
+        grid-template-columns: 1.5fr repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+}

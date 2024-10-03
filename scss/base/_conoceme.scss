@@ -1,0 +1,21 @@
+//import variables
+
+@import "..//_utilidades.scss/variables";
+@import "../_utilidades.scss/mixin";
+
+//estilos
+
+.contenedor{
+       @include contenedor;
+       background-image: linear-gradient(120deg, #74a7e4, #fcffff);
+       .item{
+        background-color: $color-secundario;
+        text-align: justify;
+        padding: 1rem;
+        margin: 1rem;
+        width: 80%;
+       }
+        
+}
+        
+        
