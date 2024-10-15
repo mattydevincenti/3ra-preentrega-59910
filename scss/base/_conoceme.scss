@@ -7,15 +7,27 @@
 
 .contenedor{
        @include contenedor;
-       background-image: linear-gradient(120deg, #74a7e4, #fcffff);
-       .item{
-        background-color: $color-secundario;
+       background-image: linear-gradient(#74a7e4, transparent);
+       h2{
+              padding-top: 1rem;
+              text-align: center;
+       }
+       .conoceme{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 0.5fr;
+        gap: 1rem;
         text-align: justify;
-        padding: 1rem;
-        margin: 1rem;
-        width: 80%;
+        padding: 2rem;
+        
+        div{
+             
+              img{
+                     width: 50%;
+                     
+              }
+
+        }
        }
         
 }
-        
-        

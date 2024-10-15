@@ -12,8 +12,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
-
 }
 
 @mixin div-principal{
@@ -39,9 +37,12 @@
     flex-direction: column;
     align-items: center;
     gap:0.5rem;
+   
 }
 
 @mixin item{
+    display: flex;
+    flex-direction: column;
     background-color: $color-secundario;
     padding: 1rem;
     margin: 1rem;

@@ -7,6 +7,12 @@
 @import "../_utilidades.scss/mixin";
 
 /*estilos generales*/
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
 
 header{
     .logo{
@@ -19,12 +25,29 @@ header{
     }
 }
 
+
 main{
-    padding: 1rem;
-    background-image: linear-gradient(120deg, #74a7e4, #fcffff);
+    
+    background-image: linear-gradient(90deg, #74a7e4, #fcffff);
     @include grid;
     p{
         text-align: justify;
+    }
+
+    .boton{
+        a{
+            color: #fcffff;
+            margin: 5px;
+
+        }
+        
+        a:hover{
+            color: white;
+            background-color: black;
+            border: 1px solid white;
+            padding: 5px;
+            box-shadow: 10px 10px 15px black;
+        }
     }
 
     .div-principal{
@@ -57,6 +80,8 @@ main{
 .contenedor{
     .item{
         border: black solid 1px;
+        padding: 1rem;
+        margin: 1rem;
     }
 }
 

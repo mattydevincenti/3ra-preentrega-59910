@@ -1,2 +1,21 @@
 @import "../_utilidades.scss/mixin";
 @import "../_utilidades.scss/variables";
+
+.contenedor{
+    h1{
+        text-align: justify;
+        padding: 2rem;
+    }
+    .tratamientos{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 2fr 1fr;
+        padding: 2rem;
+        gap: 2rem;
+        div{
+            img{
+                width: 80%;
+            }
+        }
+    }
+}
